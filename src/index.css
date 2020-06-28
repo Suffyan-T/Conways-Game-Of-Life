@@ -1,0 +1,67 @@
+body {
+  background-color: whitesmoke;
+}
+  
+.box {
+  display: inline-block;       
+  border: 1px solid darkblue;
+  width: 15px;
+  height: 15px;
+  margin-left: -1px;
+  margin-bottom: -1px;
+  }
+
+.off {
+  background-color: white;
+}
+
+.on {
+  background-color:darkblue;
+}
+  
+.box:hover { 
+  background: #00CCFF;
+}
+
+.center {
+  margin: auto;
+  display: table;
+  margin-top: 10px;
+}
+
+.grid {
+  width: 150px;
+  line-height: 0;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+  
+h1, h2, h3, h4 {
+  color: darkblue;
+  margin: auto;
+  text-align: center;
+  width: 50%;
+  margin-top: 10px;
+}
+h1{
+  font-size: 45px;
+  font-weight: 700;
+  padding: 25px;
+}
+
+h2{
+  font-size: 45px;
+  font-weight: 700;
+}
+
+h4 {
+  margin-top: 0px;
+}
+
+.btn-default{
+  background-color: darkblue;
+  color: white;
+  font-size: 18px;
+  margin: 10px;
+}
